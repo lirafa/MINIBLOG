@@ -1,0 +1,64 @@
+ .navbar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    width: 210px; 
+    background: #ffffff;
+    padding-top: 30px; 
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .brand {
+    padding: 15px;
+    font-size: 1.4em;
+  }
+  
+  .brand span {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(243, 53, 85);
+  }
+  
+  .links_list {
+    list-style: none;
+    padding: 0;
+    width: 120px; 
+  }
+  
+  .links_list li {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .links_list li a {
+    display: block; 
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px; 
+  }
+  
+  .links_list li a.active {
+    background-color: rgb(243, 53, 85);
+    color: white;
+    display: block; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  
+  .content {
+    max-width: 800px; 
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  

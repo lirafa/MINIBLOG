@@ -1,0 +1,29 @@
+.post_container {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.post_container h1 {
+  padding: 10px 0px 25px ;
+}
+.post_container h3 {
+  padding: 15px;
+}
+
+.post_container .tags {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.p{
+  padding-top: 10px;
+}
+.tags p {
+  margin-right: 1em;
+}
+
+.tags span {
+  font-weight: bold;
+}

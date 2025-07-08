@@ -1,0 +1,54 @@
+.container{
+   background: linear-gradient(90deg, #fde6ef 0%, #ffffff 49%, #fde6ef 100%);
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header {
+    padding: 35px 40px 0px;
+    top: 30px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.home h1{
+  padding: 0px 0px 28px;
+}
+
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #ff6b81, #ff4d6d);
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #ff5a73, #e84362);
+}
+
