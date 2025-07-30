@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 90px;
   }
 
-  
 .btn {
     background-image: linear-gradient(to right, rgb(248, 130, 146), rgb(247, 104, 252));
     width: 150px;

@@ -1,11 +1,24 @@
-.edit_post {
+.container{
+   text-align: center;
+  padding-bottom: 35px;
   display: flex;              
     flex-direction: column;       
     align-items: center;      
     text-align: center;
-    min-height: 100vh;
-    padding-top: 100px;
     margin-bottom: 50px;
+}
+.form{
+   width: 50%;
+}
+.title{
+  font-size: 30px;
+}
+.edit_post {
+    display: flex;              
+    flex-direction: column;       
+    align-items: center;      
+    text-align: center;
+    min-height: 100vh;
 }
 
 .form{
@@ -30,4 +43,8 @@
   max-width: 100%;
   margin-bottom: 1em;
 }
-
+.preview_title{
+  padding-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
